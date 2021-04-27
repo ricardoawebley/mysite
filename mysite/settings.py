@@ -153,5 +153,6 @@ AUTH_USER_MODEL = 'users.User'
 
 CORS_ALLOWED_ORIGINS= [
     "http://localhost:8080",
-    "https://ricardoawebley.pythonanywhere.com"
+    "https://ricardoawebley.pythonanywhere.com",
+    "http://localhost:3000",
 ]
