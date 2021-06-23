@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-emc@^u#3#ju*+0*c+4u11%r3pgjb-b=xlzn*pu)zwsy6k8lj^5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'users',
     'article',
+    'app',
     'rest_framework',
     'corsheaders',
     
@@ -79,7 +80,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-"""
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -98,7 +99,7 @@ DATABASES = {
         'PORT': '3306',
     }
 }
-
+"""
 
 
 # Password validation
